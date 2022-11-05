@@ -6,7 +6,9 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.31"
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.13",
+    "vue3-star-ratings": "^1.1.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.15.0",

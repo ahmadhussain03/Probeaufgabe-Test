@@ -1,14 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <AppLayout>
+    <RouterView></RouterView>
+  </AppLayout>
 </template>
 
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
+import { RouterView } from 'vue-router';
+import AppLayout from './components/AppLayout.vue';
+
 </script>
 
 <style>
 #app {
-  @apply antialiased flex flex-col items-center mt-4;
+  @apply antialiased flex flex-col items-center mt-4 text-gray-900;
+}
+
+body {
+  @apply p-0 m-0;
 }
 </style>
